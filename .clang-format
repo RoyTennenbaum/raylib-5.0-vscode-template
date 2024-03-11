@@ -1,0 +1,9 @@
+# config file was taken and customized from: https://hackmd.io/@exradr/clang-format
+# options: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+BasedOnStyle: LLVM
+IndentWidth: 4
+UseTab: Never
+# if (x) doStuff()  is not allowed, bad style:
+AllowShortIfStatementsOnASingleLine: false
+UseCRLF: false
